@@ -1,6 +1,6 @@
 {
-  "name": "react-native-wx",
-  "version": "3.0.3",
+  "name": "react-native-wx-fix",
+  "version": "3.0.3.1",
   "description": "微信登录、分享、支付模块",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/reactnativecn/react-native-wx#readme",
   "dependencies": {
-    "es6-promisify": "^3.0.0"
+    "bluebird": "^3.5.1"
   },
   "peerDependencies": {
     "react-native": "^0.33.0"
