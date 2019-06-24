@@ -52,6 +52,12 @@ static BOOL gIsAppRegistered = false;
 
 RCT_EXPORT_MODULE()
 
+/*implement 'requiresMainQueueSetup' if overrides'constantsToExport' */
++ (BOOL) requiresMainQueueSetup
+{
+    return YES;
+}
+
 - (NSDictionary *)constantsToExport
 {
     return @{ @"isAppRegistered":@(gIsAppRegistered)};
